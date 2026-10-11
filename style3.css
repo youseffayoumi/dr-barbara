@@ -1,0 +1,1051 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+.top-bar {
+    background-color: #ffffff;
+    padding: 15px 0;
+}
+
+.top-bar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* الشعار */
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+
+.brand-name {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: #4a4a4a;
+}
+
+
+.header-info {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.appointment-info {
+    text-align: right;
+    font-size: 10px;
+    color: #777;
+    line-height: 1.3;
+}
+
+.appointment-info strong {
+    display: block;
+    color: #333;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.phone-link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    color: #4a4a4a;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.phone-icon {
+    width: 16px;
+    height: 16px;
+    fill: #a2b37a;
+}
+
+.btn-book {
+    background-color: #a2b37a;
+    color: #ffffff;
+    padding: 8px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: background 0.3s;
+}
+
+.btn-book:hover {
+    background-color: #8e9e62;
+}
+
+
+.main-nav {
+    background-color: #a2b37a;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav li {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.main-nav li:last-child {
+    border-right: none;
+}
+
+.main-nav a {
+    display: block;
+    padding: 12px 5px;
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+}
+
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 480px;
+    background-image: url('ChatGPT\ Image\ Aug\ 25\,\ 2026\,\ 05_58_52\ PM\ 1.png'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(162, 179, 122, 0.65); 
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    max-width: 900px;
+    padding: 0 20px;
+}
+
+.hero-subtitle {
+    display: block;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    opacity: 0.9;
+}
+
+.hero-title {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 992px) {
+    .main-nav ul {
+        flex-wrap: wrap;
+    }
+    
+    .main-nav li {
+        flex: 1 1 25%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .hero-title {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-bar-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .header-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .appointment-info {
+        text-align: center;
+    }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+.about-quote-section {
+    width: 100%;
+    padding: 70px 20px 40px 20px;
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.about-quote-container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+
+.quote-highlight {
+    color: #9cb072;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.quote-body-text p {
+    color: #777777;
+    font-size: 11.5px;
+    font-weight: 300;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+
+.quote-image-wrapper {
+    margin-top: 45px;
+    width: 100%;
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.quote-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 2px;
+}
+
+
+@media (max-width: 768px) {
+    .quote-highlight {
+        font-size: 13px;
+    }
+
+    .quote-body-text p {
+        font-size: 11px;
+    }
+
+    .quote-image-wrapper {
+        margin-top: 30px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+.testimonials-section {
+    width: 100%;
+    padding: 70px 0;
+    background-color: #f7f7f5; 
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+
+.testimonials-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.testimonials-subtitle {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.testimonials-subtitle .subtitle-text {
+    font-size: 11px;
+    font-weight: 500;
+    color: #8a9a5b;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.testimonials-subtitle .bar {
+    width: 2px;
+    height: 16px;
+    background-color: #8a9a5b;
+    display: inline-block;
+}
+
+
+.testimonials-title {
+    font-size: 34px;
+    font-weight: 400;
+    color: #8a9a5b;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: left;
+}
+
+
+.testimonial-card {
+    background-color: #ffffff;
+    padding: 30px 25px;
+    border-radius: 6px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: #555555;
+    margin: 0;
+}
+
+.review-date {
+    font-size: 10px;
+    font-weight: 300;
+    color: #aaa;
+    display: block;
+}
+
+.google-logo {
+    width: 18px;
+    height: 18px;
+}
+
+.google-logo svg {
+    width: 100%;
+    height: 100%;
+}
+
+
+.stars {
+    color: #ffc107;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+
+
+.review-text {
+    font-size: 11px;
+    font-weight: 300;
+    color: #777777;
+    line-height: 1.65;
+    margin: 0;
+}
+
+
+@media (max-width: 1024px) {
+    .testimonials-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonials-title {
+        font-size: 26px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+.cta-section {
+    width: 100%;
+    padding: 60px 20px;
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.cta-banner {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: linear-gradient(135deg, #cbd39b 0%, #a4b470 50%, #839755 100%);
+    padding: 50px 60px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    box-sizing: border-box;
+}
+
+
+.cta-title-wrap {
+    flex: 1;
+}
+
+.cta-title {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1.25;
+    letter-spacing: 2px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+
+.cta-divider {
+    width: 1px;
+    height: 110px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+.cta-content {
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cta-text {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.7;
+    margin-top: 0;
+    margin-bottom: 25px;
+    max-width: 450px;
+}
+
+
+.btn-cta-appointment {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 28px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.btn-cta-appointment:hover {
+    background-color: #ffffff;
+    color: #839755;
+}
+
+
+@media (max-width: 850px) {
+    .cta-banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 25px;
+        gap: 30px;
+    }
+
+    .cta-divider {
+        width: 80%;
+        height: 1px; 
+    }
+
+    .cta-content {
+        align-items: center;
+    }
+
+    .cta-title {
+        font-size: 28px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+.social-wall-section {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 0; 
+    background-color: #f8f8f6;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.social-wall-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.social-subtitle {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.social-subtitle .handle-text {
+    font-size: 11px;
+    font-weight: 500;
+    color: #8fa265; 
+    letter-spacing: 1px;
+    text-transform: lowercase;
+}
+
+.social-subtitle .bar {
+    width: 2px;
+    height: 16px;
+    background-color: #8fa265;
+    display: inline-block;
+}
+
+
+.social-main-title {
+    font-size: 32px;
+    font-weight: 400;
+    color: #8fa265;
+    letter-spacing: 2.5px;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+
+
+.social-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 0; 
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.social-item {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+}
+
+.social-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+
+.social-item:hover img {
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 900px) {
+    .social-grid {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+@media (max-width: 550px) {
+    .social-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    .social-main-title {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+.consultation-section {
+    position: relative;
+    width: 100%;
+    min-height: 520px;
+    background-image: url('ChatGPT\ Image\ Aug\ 25\,\ 2026\,\ 05_58_52\ PM\ 1.png'); 
+    background-size: cover;
+    background-position: center 20%;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.consultation-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(162, 179, 122, 0.82); 
+    z-index: 1;
+}
+
+.consultation-container {
+    position: relative;
+    z-index: 2;
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.consultation-left {
+    flex: 1;
+    color: #ffffff;
+}
+
+.consultation-title {
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 1.15;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.consultation-desc {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.6;
+    max-width: 380px;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+
+.consultation-right {
+    flex: 1;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.12); 
+    backdrop-filter: blur(5px);
+    padding: 40px 35px;
+    border-radius: 4px;
+}
+
+.consultation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.form-group {
+    position: relative;
+    width: 100%;
+}
+
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #ffffff;
+    outline: none;
+    resize: none;
+    transition: border-color 0.3s ease;
+}
+
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 300;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-bottom-color: #ffffff;
+}
+
+
+.submit-btn {
+    align-self: flex-start;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 8px 30px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #ffffff;
+    color: #8a9a5b;
+}
+
+
+@media (max-width: 868px) {
+    .consultation-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .consultation-left {
+        text-align: center;
+    }
+
+    .consultation-desc {
+        margin: 0 auto;
+    }
+
+    .consultation-right {
+        max-width: 100%;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+.map-footer-section {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f7f5; 
+}
+
+
+.map-container {
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+.footer-info-bar {
+    width: 100%;
+    padding: 45px 0;
+    background-color: #f7f7f5;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+
+
+.brand-name {
+    font-size: 13px;
+    font-weight: 500;
+    color: #4a4a4a;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+
+.footer-text {
+    max-width: 450px;
+}
+
+.footer-text p {
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #777777;
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .map-container {
+        height: 280px;
+    }
+
+    .footer-text {
+        max-width: 100%;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+.main-footer {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f8f6;
+    color: #666666;
+}
+
+
+.footer-top {
+    padding: 50px 0 60px 0;
+    border-top: 1px solid #eaeaea;
+}
+
+.footer-top-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 30px;
+}
+
+.col-title {
+    font-size: 11px;
+    font-weight: 600;
+    color: #a2b37a; 
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.email-title {
+    margin-top: 25px;
+}
+
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a,
+.contact-text a {
+    text-decoration: none;
+    color: #777777;
+    font-size: 11px;
+    font-weight: 300;
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover,
+.contact-text a:hover {
+    color: #a2b37a;
+}
+
+.contact-text {
+    font-size: 11px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.location-text {
+    font-style: normal;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #777777;
+}
+
+.location-text strong {
+    font-weight: 500;
+    color: #555555;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    width: 32px;
+    height: 32px;
+    background-color: #a2b37a;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.social-icon svg {
+    width: 15px;
+    height: 15px;
+}
+
+.social-icon:hover {
+    background-color: #8e9e62;
+    transform: translateY(-2px);
+}
+
+
+.footer-bottom {
+    background-color: #a2b37a; 
+    padding: 18px 0;
+    color: #ffffff;
+}
+
+.footer-bottom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.copyright-text {
+    line-height: 1.6;
+}
+
+.copyright-text a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.copyright-text a:hover {
+    text-decoration: underline;
+}
+
+.designer-credit {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+@media (max-width: 992px) {
+    .footer-top-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-top-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-bottom-container {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+}
